@@ -1,13 +1,11 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import {
-  Button,
   Container,
   Icon,
   Menu,
   Responsive,
-  Segment,
-  Sidebar
+  Segment
 } from "semantic-ui-react";
 import HomepageHeading from "./HomepageHeading";
 
@@ -26,7 +24,6 @@ export default class MobileContainer extends Component {
 
   render() {
     const { children } = this.props;
-    const { sidebarOpened } = this.state;
 
     return (
       <Responsive
